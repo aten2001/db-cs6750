@@ -49,6 +49,12 @@ for attr in Fplus:
         candidate_key.add(attr)
 print("Candidate key:\n", candidate_key)
 
+print("------------------------------------------------")
 
+total = set()
+print("Verify the candidate key:")
+for attr in candidate_key:
+    total = total.union(set(Fplus[attr]))
 
+print(total == set(relation))
     
