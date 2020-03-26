@@ -1,0 +1,6 @@
+A,B,C,D,E
+A>CE
+B>D
+D>CD
+A>B
+C>E
