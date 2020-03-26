@@ -1,0 +1,4 @@
+P,Q,R,S,T
+S>PQ
+P>R
+T>P
